@@ -1,6 +1,6 @@
 {
   "name": "layeris-service",
-  "version": "0.1.0",
-  "description": "Layerisのアカウントで、AI検索の観測結果の確認とページ診断を行うサービス用プラグイン。",
+  "version": "0.2.0",
+  "description": "サンプルでAI回答・引用と改善案を体験し、Layerisに接続して自社サイトを観測します。",
   "author": { "name": "Layeris" }
 }

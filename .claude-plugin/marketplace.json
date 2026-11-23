@@ -8,7 +8,7 @@
     {
       "name": "layeris-service",
       "source": "./plugins/layeris-service",
-      "description": "Layerisに接続し、AI検索の観測履歴と契約の利用枠を確認します。"
+      "description": "登録なしでAI検索のサンプルを試し、自社サイトを設定するときにLayerisに接続します。"
     }
   ]
 }

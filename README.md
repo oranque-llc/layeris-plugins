@@ -6,24 +6,33 @@ Use Layeris to see how ChatGPT and Gemini describe your business, review the pag
 
 Both plugins connect to the hosted Layeris MCP at `https://layeris.net/api/mcp`. Authorize the same Layeris account in both clients to share registered sites, observations, and usage limits.
 
-## Install in Codex
+## Try the sample without a Layeris account
+
+### Codex
+
+Add the marketplace to find Layeris in the plugin list, or install it from the terminal.
 
 ```sh
 codex plugin marketplace add Oranquelui/layeris-plugins
 codex plugin add layeris-service@layeris
-codex mcp login layeris-service
 ```
 
-Sign in to Layeris in the browser and authorize the connection. Then start a new Codex session to load the plugin and its skill.
+In a new chat, choose “Start the Layeris sample walkthrough.”
 
-## Install in Claude Code
+### Claude Code
 
 ```sh
 claude plugin marketplace add Oranquelui/layeris-plugins
 claude plugin install layeris-service@layeris
 ```
 
-Start a new Claude Code session. Open `/mcp`, select the Layeris server, and complete the browser sign-in and authorization.
+In a new session, run `/layeris-service:try-layeris`.
+
+Explore answers and citations, a suggested page edit, and a follow-up comparison in three steps using the same fictional site.
+
+## Get started with your own site
+
+Create a Free account and register your site in [Observation settings](https://layeris.net/en/mcp/workspace). Authorize Layeris with `codex mcp login layeris-service` in Codex or `/mcp` in Claude Code.
 
 ## Try it in a chat
 

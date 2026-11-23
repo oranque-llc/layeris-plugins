@@ -1,15 +1,22 @@
 {
   "name": "layeris-service",
-  "version": "0.1.0",
-  "description": "Layerisのアカウントで、AI検索の観測結果の確認とページ診断を行うサービス用プラグイン。",
+  "version": "0.2.0",
+  "description": "サンプルでAI回答・引用と改善案を体験し、Layerisに接続して自社サイトを観測します。",
   "author": { "name": "Layeris" },
   "skills": "./skills",
   "mcpServers": "./.codex-plugin/mcp.json",
+  "extensions": {
+    "com.openai": { "onboardingSkill": "./skills/try-layeris/SKILL.md" }
+  },
   "interface": {
     "displayName": "Layeris",
     "shortDescription": "AI検索の観測結果とページ診断",
-    "longDescription": "保存済みのAI回答と引用URLを確認し、登録済みページを診断します。",
+    "longDescription": "登録なしで回答・引用、改善案、再観測のサンプルを体験できます。自社サイトを設定するときにLayerisに接続します。",
     "developerName": "Layeris",
-    "category": "Productivity"
+    "category": "Productivity",
+    "defaultPrompt": [
+      "Layerisの初回体験をサンプルで始める",
+      "Start the Layeris sample walkthrough"
+    ]
   }
 }

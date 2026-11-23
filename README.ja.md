@@ -6,24 +6,33 @@ ChatGPT・Geminiが自社をどう紹介し、どのページを引用してい�
 
 両プラグインは共通MCPの `https://layeris.net/api/mcp` に接続します。CodexとClaude Codeで同じLayerisアカウントを選んで接続すると、登録サイト、観測履歴、利用枠を共有できます。
 
-## Codexへのインストール
+## 登録なしで試す
+
+### Codex
+
+Layerisマーケットプレイスを追加すると、プラグイン一覧からLayerisを選べます。ターミナルからもインストールできます。
 
 ```sh
 codex plugin marketplace add Oranquelui/layeris-plugins
 codex plugin add layeris-service@layeris
-codex mcp login layeris-service
 ```
 
-ブラウザーでLayerisにログインし、接続を許可します。その後、Codexの新しいセッションを開始すると、プラグインとSkillが読み込まれます。
+新しいチャットで「Layerisの初回体験をサンプルで始める」を選びます。
 
-## Claude Codeへのインストール
+### Claude Code
 
 ```sh
 claude plugin marketplace add Oranquelui/layeris-plugins
 claude plugin install layeris-service@layeris
 ```
 
-Claude Codeで新しいセッションを開始します。`/mcp` を開いてLayerisのサーバーを選び、ブラウザーでログインして接続を許可します。
+新しいセッションで `/layeris-service:try-layeris` を実行します。
+
+回答と引用、ページの改善案、再観測の差分を、同じ架空のサイトで3ステップ体験できます。
+
+## 自社サイトで始める
+
+[観測設定](https://layeris.net/ja/mcp/workspace)からFreeアカウントを作成し、自社サイトを登録できます。Codexでは `codex mcp login layeris-service`、Claude Codeでは `/mcp` からLayerisへの接続を許可します。
 
 ## チャットで試す
 
