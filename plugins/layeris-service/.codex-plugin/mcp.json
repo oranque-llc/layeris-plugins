@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "layeris-service": {
+      "url": "https://layeris.net/api/mcp"
+    }
+  }
+}

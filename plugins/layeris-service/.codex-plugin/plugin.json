@@ -1,0 +1,15 @@
+{
+  "name": "layeris-service",
+  "version": "0.1.0",
+  "description": "Layerisのアカウントで、AI検索の観測結果の確認とページ診断を行うサービス用プラグイン。",
+  "author": { "name": "Layeris" },
+  "skills": "./skills",
+  "mcpServers": "./.codex-plugin/mcp.json",
+  "interface": {
+    "displayName": "Layeris",
+    "shortDescription": "AI検索の観測結果とページ診断",
+    "longDescription": "保存済みのAI回答と引用URLを確認し、登録済みページを診断します。",
+    "developerName": "Layeris",
+    "category": "Productivity"
+  }
+}
