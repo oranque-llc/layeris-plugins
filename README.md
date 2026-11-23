@@ -13,7 +13,7 @@ Both plugins connect to the hosted Layeris MCP at `https://layeris.net/api/mcp`.
 Add the marketplace to find Layeris in the plugin list, or install it from the terminal.
 
 ```sh
-codex plugin marketplace add Oranquelui/layeris-plugins
+codex plugin marketplace add oranque-llc/layeris-plugins
 codex plugin add layeris-service@layeris
 ```
 
@@ -22,7 +22,7 @@ In a new chat, choose “Start the Layeris sample walkthrough.”
 ### Claude Code
 
 ```sh
-claude plugin marketplace add Oranquelui/layeris-plugins
+claude plugin marketplace add oranque-llc/layeris-plugins
 claude plugin install layeris-service@layeris
 ```
 

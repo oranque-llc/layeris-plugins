@@ -13,7 +13,7 @@ ChatGPT・Geminiが自社をどう紹介し、どのページを引用してい�
 Layerisマーケットプレイスを追加すると、プラグイン一覧からLayerisを選べます。ターミナルからもインストールできます。
 
 ```sh
-codex plugin marketplace add Oranquelui/layeris-plugins
+codex plugin marketplace add oranque-llc/layeris-plugins
 codex plugin add layeris-service@layeris
 ```
 
@@ -22,7 +22,7 @@ codex plugin add layeris-service@layeris
 ### Claude Code
 
 ```sh
-claude plugin marketplace add Oranquelui/layeris-plugins
+claude plugin marketplace add oranque-llc/layeris-plugins
 claude plugin install layeris-service@layeris
 ```
 
