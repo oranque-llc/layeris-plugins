@@ -26,7 +26,7 @@ claude plugin marketplace add Oranquelui/layeris-plugins
 claude plugin install layeris-service@layeris
 ```
 
-In a new session, run `/layeris-service:try-layeris`.
+In a new session, run `/layeris-service:try-layeris in English`.
 
 Explore answers and citations, a suggested page edit, and a follow-up comparison in three steps using the same fictional site.
 
